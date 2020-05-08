@@ -14,3 +14,4 @@
 
 技术解析：
  1：RestTemplate 这是一个  替代httpclient的  Rest风格的  HTTP访问框架
+ 2: Eureka 服务注册中心  用户搭建服务集群  相同技术有zoonkeeper consul 还有阿里的nacos
