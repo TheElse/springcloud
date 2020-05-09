@@ -15,4 +15,4 @@
 技术解析：
  1：RestTemplate 这是一个  替代httpclient的  Rest风格的  HTTP访问框架
  2: Eureka 服务注册中心  用户搭建服务集群  相同技术有zoonkeeper consul 还有阿里的nacos
- 3：Ribbon当客户端借助RestTemplate（@LoadBrance  支持负载均衡）去访问Eureka下面的集群服务是，Eureka有自身的   轮训负载均衡机制但是这还是不够的，所以后续要引进Ribbon解决负载均衡的算法，Ribbon还能够替代RestTemplate
+ 3：Ribbon当客户端借助RestTemplate（@LoadBrance  支持负载均衡）去访问Eureka下面的集群服务是，Eureka有自身的   轮训负载均衡机制但是这还是不够的，所以后续要引进Ribbon解决负载均衡的算法，Ribbon结合RestTemplate 调用
